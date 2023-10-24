@@ -1,0 +1,63 @@
+/* CSS for the React application */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.event-list {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.selected-events {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.event-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+.event-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.event-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.select-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.select-button:hover {
+  background-color: #0056b3;
+}
+
+.deselect-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.deselect-button:hover {
+  background-color: #bd2130;
+}
